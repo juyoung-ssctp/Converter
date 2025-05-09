@@ -5,7 +5,7 @@ A lightweight C++ project that converts bit-encoded values into meaningful angle
 ---
 
 ## 📦 Project Structure
-`Converter/
+```Converter/
 ├── include/
 │ └── converter/
 │    ├── BitConverter.hpp
@@ -16,7 +16,7 @@ A lightweight C++ project that converts bit-encoded values into meaningful angle
 ├── tests/
 │    └── test_BitConverter.cpp
 ├── CMakeLists.txt
-└── .gitignore`
+└── .gitignore```
 
 ---
 
