@@ -1,9 +1,9 @@
-#ifndef KMUHEARTBEAT_BIT_CONVERTER_HPP
-#define KMUHEARTBEAT_BIT_CONVERTER_HPP
+#pragma once
 
 #include "BitInput.hpp"
 
-namespace kmuheartbeat {
+namespace converter {
+
 class BitConverter {
 public:
     explicit BitConverter(const BitInput& input);
@@ -12,9 +12,8 @@ public:
     double toRadian() const;
 
 private:
-    BitInput input_;
+    BitInput input_;  // Composition 구조
 };
-}  // namespace kmuheartbeat
 
-#endif
+}  // namespace converter
 

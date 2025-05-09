@@ -148,5 +148,6 @@ CMakeFiles/main.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
  /usr/include/c++/12/bits/istream.tcc \
- /home/ju/bit_angle_converter/include/BitConverter.hpp \
- /home/ju/bit_angle_converter/include/BitInput.hpp
+ /home/ju/bit_angle_converter/include/converter/BitConverter.hpp \
+ /home/ju/bit_angle_converter/include/converter/BitInput.hpp \
+ /home/ju/bit_angle_converter/include/converter/Constants.hpp

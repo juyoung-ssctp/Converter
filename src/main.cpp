@@ -1,12 +1,19 @@
 #include <iostream>
-#include "BitConverter.hpp"
+#include "converter/BitConverter.hpp"
+#include "converter/Constants.hpp"
 
 int main() {
-    kmuheartbeat::BitInput input{512, 1024};
-    kmuheartbeat::BitConverter converter(input);
+    converter::BitInput input{180, 360};  // 원래 Magic Number
 
-    std::cout << "Degree: " << converter.toDegree() << std::endl;
-    std::cout << "Radian: " << converter.toRadian() << std::endl;
+    // 개선: 의미 있는 이름으로 상수 활용
+    converter::BitInput inputDeg{
+        180,
+        static_cast<int>(converter::AngleConstants::FULL_CIRCLE_DEGREE)  // 360
+    };
+
+    converter::BitConverter converter(inputDeg);
+    std::cout << "Degree: " << converter.toDegree() << '\n';
+    std::cout << "Radian: " << converter.toRadian() << '\n';
 
     return 0;
 }

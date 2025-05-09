@@ -69,24 +69,10 @@ include CMakeFiles/test_bit_converter.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test_bit_converter.dir/flags.make
 
-CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o: CMakeFiles/test_bit_converter.dir/flags.make
-CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o: ../src/BitConverter.cpp
-CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o: CMakeFiles/test_bit_converter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ju/bit_angle_converter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o -MF CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o.d -o CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o -c /home/ju/bit_angle_converter/src/BitConverter.cpp
-
-CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ju/bit_angle_converter/src/BitConverter.cpp > CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.i
-
-CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ju/bit_angle_converter/src/BitConverter.cpp -o CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.s
-
 CMakeFiles/test_bit_converter.dir/tests/test_BitConverter.cpp.o: CMakeFiles/test_bit_converter.dir/flags.make
 CMakeFiles/test_bit_converter.dir/tests/test_BitConverter.cpp.o: ../tests/test_BitConverter.cpp
 CMakeFiles/test_bit_converter.dir/tests/test_BitConverter.cpp.o: CMakeFiles/test_bit_converter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ju/bit_angle_converter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_bit_converter.dir/tests/test_BitConverter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ju/bit_angle_converter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_bit_converter.dir/tests/test_BitConverter.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_bit_converter.dir/tests/test_BitConverter.cpp.o -MF CMakeFiles/test_bit_converter.dir/tests/test_BitConverter.cpp.o.d -o CMakeFiles/test_bit_converter.dir/tests/test_BitConverter.cpp.o -c /home/ju/bit_angle_converter/tests/test_BitConverter.cpp
 
 CMakeFiles/test_bit_converter.dir/tests/test_BitConverter.cpp.i: cmake_force
@@ -97,16 +83,30 @@ CMakeFiles/test_bit_converter.dir/tests/test_BitConverter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_bit_converter.dir/tests/test_BitConverter.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ju/bit_angle_converter/tests/test_BitConverter.cpp -o CMakeFiles/test_bit_converter.dir/tests/test_BitConverter.cpp.s
 
+CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o: CMakeFiles/test_bit_converter.dir/flags.make
+CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o: ../src/BitConverter.cpp
+CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o: CMakeFiles/test_bit_converter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ju/bit_angle_converter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o -MF CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o.d -o CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o -c /home/ju/bit_angle_converter/src/BitConverter.cpp
+
+CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ju/bit_angle_converter/src/BitConverter.cpp > CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.i
+
+CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ju/bit_angle_converter/src/BitConverter.cpp -o CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.s
+
 # Object files for target test_bit_converter
 test_bit_converter_OBJECTS = \
-"CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o" \
-"CMakeFiles/test_bit_converter.dir/tests/test_BitConverter.cpp.o"
+"CMakeFiles/test_bit_converter.dir/tests/test_BitConverter.cpp.o" \
+"CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o"
 
 # External object files for target test_bit_converter
 test_bit_converter_EXTERNAL_OBJECTS =
 
-test_bit_converter: CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o
 test_bit_converter: CMakeFiles/test_bit_converter.dir/tests/test_BitConverter.cpp.o
+test_bit_converter: CMakeFiles/test_bit_converter.dir/src/BitConverter.cpp.o
 test_bit_converter: CMakeFiles/test_bit_converter.dir/build.make
 test_bit_converter: CMakeFiles/test_bit_converter.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ju/bit_angle_converter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test_bit_converter"

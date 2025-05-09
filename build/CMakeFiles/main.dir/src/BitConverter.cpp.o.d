@@ -1,8 +1,9 @@
 CMakeFiles/main.dir/src/BitConverter.cpp.o: \
  /home/ju/bit_angle_converter/src/BitConverter.cpp \
  /usr/include/stdc-predef.h \
- /home/ju/bit_angle_converter/include/BitConverter.hpp \
- /home/ju/bit_angle_converter/include/BitInput.hpp \
+ /home/ju/bit_angle_converter/include/converter/BitConverter.hpp \
+ /home/ju/bit_angle_converter/include/converter/BitInput.hpp \
+ /home/ju/bit_angle_converter/include/converter/Constants.hpp \
  /usr/include/c++/12/cmath \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
