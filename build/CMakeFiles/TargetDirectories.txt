@@ -1,4 +1,0 @@
-/home/ju/bit_angle_converter/build/CMakeFiles/main.dir
-/home/ju/bit_angle_converter/build/CMakeFiles/test_bit_converter.dir
-/home/ju/bit_angle_converter/build/CMakeFiles/edit_cache.dir
-/home/ju/bit_angle_converter/build/CMakeFiles/rebuild_cache.dir
